@@ -1,0 +1,213 @@
+body{
+	margin:0;
+	padding:0;
+}
+.fundo{
+	position:flex;
+	width: 65vw;
+	border-top:100vh solid #545E75;
+	border-left: 0vh solid transparent;
+	border-right: 30vh solid transparent;
+}
+
+.conteudoEsquerda{
+	width:70%;
+	margin-top:-100vh;
+	padding-left: 5%;
+}
+.title{
+	color:#fff;
+	margin-left: 30%;
+	font-size: 50px;
+	font-weight: 900;
+	font-family: arial;
+}
+.logo {
+	width:35%;
+	margin-bottom:10px;
+}
+.subtitle{
+	color:#fff;
+	margin-left: 5%;
+	font-size: 30px;
+	font-weight: 900;
+	font-family: arial;
+}
+.responsive{
+	float:bottom;
+	width:20%;
+	padding-right: 20%;
+}
+.rodape{
+	font-size: 20px;
+	position:absolute;
+    bottom:10; 
+}
+.conteudoDireita{
+	float:right;
+	
+	margin-top:-50vh;
+	color: black;
+}
+.titleDireita{
+	text-align:right;
+	font-family: arial;
+	margin-right: 4%;
+	font-weight: 700;
+	font-size:30px;
+}
+form{
+	margin:0;
+}
+input[type=text], input[type=password]{
+	width:90%;
+	height:40px;
+	line-height:30px;
+	border-radius:10px;
+	border-style: solid;
+	border-width:thin;
+	outline:none;
+	margin-bottom: 15px;
+	padding-left:15px;
+}
+input[type=submit]{
+	background-color:#F0ED4A; 
+	height: 60px;
+	border:none;
+	outline:0;
+	cursor: pointer;
+	width:130px;
+	text-align:center;
+	border-radius:15px;
+	font-size: 20px;
+	font-weight:700;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+a {
+	color:#690000;
+	font-family:arial;
+	font-weight:700;
+}
+
+
+@media (max-width: 1600px) {
+	.conteudoDireita{
+		float:right;
+		padding-right: 2%;
+		margin-top:-60vh;
+		color: black;
+	}
+	.fundo{
+		position:flex;
+		width: 60vw;
+		border-top:100vh solid #545E75;
+		border-left: 0vh solid transparent;
+		border-right: 30vh solid transparent;
+	}
+}
+
+@media (max-width: 1300px) {
+	.conteudoDireita{
+		float:right;
+		padding-right: 2%;
+		margin-top:-60vh;
+		color: black;
+	}
+	.fundo{
+		position:flex;
+		width: 40vw;
+		border-top:100vh solid #545E75;
+		border-left: 0vh solid transparent;
+		border-right: 30vh solid transparent;
+	}
+	.form input {
+		width: 10%;
+	}
+}
+
+@media  (max-width: 500px) {
+	.conteudoEsquerda{
+	width:100%;
+	border:  0px;
+	margin-top:-100vh;
+	align-items:center;
+	position:center;
+	}
+	.title{
+		color:#fff;
+		position: center;
+		font-size: 30px;
+		font-weight: 900;
+		font-family: arial;
+	}
+	.logo {
+		width:50%;
+		align-items:center;
+		margin-bottom:10px;
+	}
+	.subtitle{
+		color:#fff;
+		margin-left: 5%;
+		font-size: 30px;
+		font-weight: 900;
+		font-family: arial;
+	}
+	.responsive{
+		float:bottom;
+		width:20%;
+		padding-right: 20%;
+	}
+	.fundo{
+		position:flex;
+		width: 100vw;
+		border-top:100vh solid #545E75;
+		border-left: 0vh solid transparent;
+		border-right: 0vh solid transparent;
+	}
+
+	.conteudoDireita{
+		border:  0px;
+	}
+	.conteudoDireita p{
+		color:#fff;
+		margin-left: 10%;
+		font-size: 25px;
+		font-weight: 200;
+		font-family: arial;
+	}
+	.logo {
+		width:50%;
+	}
+	.subtitle{
+		color:#fff;
+		margin-left: 5%;
+		font-size: 30px;
+		font-weight: 900;
+		font-family: arial;
+	}
+	.responsive{
+		float:bottom;
+		width:20%;
+		padding-right: 20%;
+	}
+	.rodape{
+		font-size: 20px;
+		position:absolute;
+		bottom:10; 
+	}
+	.conteudoDireita{
+		float:right;
+		padding-right: 2%;
+		margin-top:-80%;
+		color: black;
+	}
+	.titleDireita{
+		text-align:right;
+		font-family: arial;
+		font-weight: 700;
+		font-size:30px;
+	}
+
+	
+}

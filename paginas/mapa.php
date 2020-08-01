@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>"Primeiro Mapa"</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    	
+    <link rel="stylesheet" type="text/css" href="../estilo/mapa.css">
+</head>
+
+<body>
+	
+    <div id="map"></div>
+
+    <script src="../js/mapa.js"></script>
+    <script 
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKYQDYPtaonx0Xq-86s4S-TS5PtPhh59A&callback=navigatorGeolocationSuport" async defer>
+    </script>
+</body>
+
+</html>

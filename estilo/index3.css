@@ -1,0 +1,225 @@
+
+body{
+	margin:0;
+	padding:0;
+	background-image: url("../imagens/fundo.png");
+	background-size: cover; 
+}
+
+
+	.container{
+		display:flex;
+		width:100vw;
+		height:100vh;
+		background: linear-gradient(-65deg, #fff 40%, rgba(0, 0, 0, 0.4) 26%);
+	}
+	.conteudoEsquerda {
+		width: 70vw;
+		height:100vh;
+		display:flex;
+		flex-direction:column;
+		align-items: center;
+	}
+
+	.title{
+		color:#fff;
+		margin-top: 20px;
+		margin-left: 30%;
+		font-size: 50px;
+		font-weight: 900;
+		font-family: arial;
+	}
+	.logo {
+		width:40%;
+		margin-bottom:10px;
+	}
+	.subtitle{
+		color:#fff;
+		margin-left: 5%;
+		font-size: 25px;
+		font-weight: 900;
+		font-family: arial;
+	}
+	.responsive{
+		float:bottom;
+		width:20%;
+		padding-right: 20%;
+	}
+	.conteudoDireita{
+		display:flex;
+		flex-direction: column;
+		text-align:right;
+		justify-content:center;
+		
+	}
+	.titleDireita{
+		font-family:arial;
+		font-weight: 700;
+		font-size: 30px;
+		margin-bottom:50px;
+		padding-right:50px;
+	}
+	.rodape{
+		font-size: 20px;
+		position:absolute;
+		display:flex;
+		bottom:0;
+		justify-content:center;
+		align-items:center;
+		font-family: arial;
+		color: #fff;
+	}
+
+	.form{
+		display:flex;
+		flex-direction:column;
+		width:90%;
+		border:none;
+	}
+	.form input{
+		height:45px;
+		border: none;
+		background-color:#E8E8E8;
+		padding: 15px;
+		margin: 10px;
+		width: 85%;
+	}
+
+	.btn{
+		border-radius: 15px;
+		text-transform: uppercase;
+		color: #545E75;
+		font-weight: 900;
+		background-color: #F59B33;
+		padding: 10px 50px;
+		border: 0px;
+		cursor:pointer;
+		width:200px;
+		align-self:center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.btn:hover{
+		background-color:#fff;
+		border: 2px solid #F0ED4A;
+		color: #545E75;
+	}
+	a {
+		color:#690000;
+		font-family:arial;
+		font-weight:700;
+	}
+
+
+	.title{
+		color:#fff;
+		margin-left: 30%;
+		font-size: 30px;
+		font-weight: 900;
+		font-family: arial;
+	}
+
+@media (max-height: 600px){
+		.responsive{
+		float:bottom;
+		width:10vw;
+		padding-right: 10px;
+		margin:0;
+	}
+	.rodape{
+		margin:0;
+		display:flex;
+		font-size: 10px;
+		padding-bottom:10px;
+		position:absolute;
+		bottom:0;
+		font-family:arial;
+		font-weight:700;
+		width:100vw;
+		align-items:center;
+		justify-content:center;
+	}
+
+}
+
+@media (max-width: 900px){
+	.title{
+		color:#fff;
+		margin-left: 30%;
+		font-size: 30px;
+		font-weight: 900;
+		font-family: arial;
+	}
+}
+
+
+
+@media (max-width: 800px){
+	.container{
+		display:flex;
+		width:100vw;
+		height:100vh;
+		flex-direction:column;
+	}
+	.conteudoEsquerda{
+		width:100%;
+		justify-content:center;
+		max-height:35vh;
+		margin-right:0;
+		align-items:center;
+	}
+	.title{
+		font-size: 30px;
+		margin-left:0;
+	}
+	.subtitle{
+		font-size:15px;
+		margin-left:0;
+	}
+	.conteudoDireita{
+		width:100vw;
+		align-items:center;
+		justify-content:center;
+	}
+	.titleDireita{
+		display:none;
+	}
+	
+	.form{
+		display:flex;
+		flex-direction:column;
+		width:100vw;
+		border:none;
+	}
+	.form input{
+		height:45px;
+		border: none;
+		background-color:#E8E8E8;
+		padding: 15px;
+		margin: 15px;
+		width: 85%;
+	}
+
+	
+	.responsive{
+		float:bottom;
+		width:10vw;
+		padding-right: 10px;
+		margin:0;
+	}
+	.rodape{
+		margin:0;
+		display:flex;
+		font-size: 15px;
+		padding-bottom:10px;
+		position:absolute;
+		bottom:0;
+		font-family:arial;
+		font-weight:700;
+		width:100vw;
+		align-items:center;
+		justify-content:center;
+		color: black;
+	}
+}

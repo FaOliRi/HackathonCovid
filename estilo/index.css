@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin:0;
+	padding:0;
+}
+
+	.fundo{
+		display:flex;
+		width: 65vw;
+		border-top:100vh solid #545E75;
+		border-left: 0vh solid transparent;
+		border-right: 30vh solid transparent;
+		
+	}
+	.container{
+		display:flex;
+		width:100%;
+		margin-top: -100vh;
+		height:100%;
+	}
+	.conteudoEsquerda {
+		width: 80%;
+		height:100%;
+		display:flex;
+		flex-direction:column;
+	}
+
+	.title{
+		color:#fff;
+		margin-top: 20px;
+		margin-left: 30%;
+		font-size: 50px;
+		font-weight: 900;
+		font-family: arial;
+	}
+	.logo {
+		width:40%;
+		margin-bottom:10px;
+	}
+	.subtitle{
+		color:#fff;
+		margin-left: 5%;
+		font-size: 30px;
+		font-weight: 900;
+		font-family: arial;
+	}
+	.responsive{
+		float:bottom;
+		width:20%;
+		padding-right: 20%;
+	}
+	.conteudoDireita{
+		display:flex;
+		flex-direction: column;
+		text-align:right;
+		justify-content:center;
+		
+	}
+	.titleDireita{
+		font-family:arial;
+		font-weight: 700;
+		font-size: 30px;
+		margin-bottom:50px;
+		padding-right:50px;
+	}
+	.rodape{
+		font-size: 20px;
+		position:absolute;
+		bottom:0;
+		padding-left: 20px;
+		font-family: arial;
+	}
+
+	.form{
+		display:flex;
+		flex-direction:column;
+		width:90%;
+		border:none;
+	}
+	.form input{
+		height:45px;
+		border: none;
+		background-color:#E8E8E8;
+		padding: 15px;
+		margin: 10px;
+		width: 85%;
+	}
+
+	.btn{
+		border-radius: 15px;
+		text-transform: uppercase;
+		color: #545E75;
+		font-weight: 900;
+		background-color: #F0ED4A;
+		padding: 10px 50px;
+		border: 0px;
+		cursor:pointer;
+		width:200px;
+		align-self:center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.btn:hover{
+		background-color:#fff;
+		border: 2px solid #F0ED4A;
+		color: #545E75;
+	}
+	a {
+		color:#690000;
+		font-family:arial;
+		font-weight:700;
+	}
+
+@media (max-width: 900px){
+	.title{
+		color:#fff;
+		margin-left: 30%;
+		font-size: 30px;
+		font-weight: 900;
+		font-family: arial;
+	}
+}
+
+@media (max-width: 600px){
+	.fundo{
+		display:flex;
+		width: 40vw;
+		border-top:100vh solid #545E75;
+		border-left: 0vh solid transparent;
+		border-right: 30vh solid transparent;
+	}
+	.container{
+		display:block;
+		width:90%;
+		height:100%;
+		margin-right:0;
+	}
+	.conteudoEsquerda{
+		width:100%;
+		justify-content:center;
+		height:44%;
+		margin-right:0;
+	}
+	.title{
+		font-size: 30px;
+	}
+	.subtitle{
+		font-size:15px;
+	}
+	.conteudoDireita{
+		width:100%;
+		align-items:center;
+	}
+	.titleDireita{
+		display:none;
+	}
+	.responsive{
+		float:bottom;
+		width:20%;
+		padding-right: 10px;
+		margin:0;
+	}
+	.rodape{
+		margin:0;
+		display:flex;
+		font-size: 15px;
+		position:absolute;
+		bottom:0;
+		padding-left: 10px;
+		font-family:arial;
+		font-weight:700;
+		width:80%;
+		align-items:center;
+		justify-content:center;
+		padding
+	}
+}
